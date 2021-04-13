@@ -11,18 +11,24 @@
         android:id="@+id/myNewEdt"
         android:layout_width="match_parent"
         android:layout_height="62dp"
-        android:hint="Tomten" />
+        android:layout_margin="20dp"
+        android:hint="Search" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="373dp"
+        android:layout_height="314dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         app:srcCompat="@android:drawable/ic_menu_mapmode" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="76dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
         android:text="Button" />
 
 </LinearLayout>
